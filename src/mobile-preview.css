@@ -1,0 +1,16 @@
+/* 移动端预览容器 - 仅在开发环境显示 */
+@media (min-width: 768px) {
+  #root {
+    max-width: 390px;
+    margin: 0 auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    min-height: 100vh;
+    background: #fff;
+  }
+
+  body {
+    /* 橙/白/灰/黑 渐变背景 */
+    background: linear-gradient(135deg, #F97316 0%, #EA580C 50%, #171717 100%);
+    min-height: 100vh;
+  }
+}
