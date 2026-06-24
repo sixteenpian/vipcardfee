@@ -1,0 +1,6 @@
+﻿node_modules/
+.claude/projects/
+.claude/todos/
+dist/
+build/
+.env
